@@ -507,6 +507,17 @@
     
     
     <entry>
+      <title>archive</title>
+      <link href="/archive/index.html"/>
+      <url>/archive/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>关于</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
@@ -518,11 +529,11 @@
     
     
     <entry>
-      <title>archive</title>
-      <link href="/archive/index.html"/>
-      <url>/archive/index.html</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<style>  #libCategories .card-wrap:hover .card-info:after {    width: 300%;  }</style><link rel="stylesheet" type="text/css" href="https://npm.elemecdn.com/js-heo@1.0.11/3dCard/no3d.css"><div id='libCategories'><div id="lib-cards" class="container"><a href='javascript:void(0);' onClick='pjax.loadUrl("/categories/树莓派/")'><card data-image="https://img02.anheyu.com/adminuploads/1/2022/09/05/6315e144528fb.webp"><h1 slot="header">树莓派</h1><!-- <p slot="content">前端学习之路。</p> --></card></a><a href='javascript:void(0);' onClick='pjax.loadUrl("/categories/STM32/")'>  <card data-image="https://img02.anheyu.com/adminuploads/1/2022/09/05/6315e1433f197.webp">    <h1 slot="header">STM32</h1>    <!-- <p slot="content">在大学期间发生的一些事儿。</p> -->  </card></a><a href='javascript:void(0);' onClick='pjax.loadUrl("/categories/嵌入式Linux/")'>  <card data-image="https://img02.anheyu.com/adminuploads/1/2022/09/05/6315e142a69a9.webp">    <h1 slot="header">嵌入式Linux</h1>    <!-- <p slot="content">和好朋友👬们一起经历的有趣事。</p> -->  </card></a></div></div><script src='https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/vue/2.6.14/vue.min.js' data-pjax></script><script type="text/javascript" src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.7/no3d/no3d.js" data-pjax></script>]]></content>
       
     </entry>
     
@@ -551,11 +562,11 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title></title>
+      <link href="/css/project.css"/>
+      <url>/css/project.css</url>
       
-        <content type="html"><![CDATA[<style>  #libCategories .card-wrap:hover .card-info:after {    width: 300%;  }</style><link rel="stylesheet" type="text/css" href="https://npm.elemecdn.com/js-heo@1.0.11/3dCard/no3d.css"><div id='libCategories'><div id="lib-cards" class="container"><a href='javascript:void(0);' onClick='pjax.loadUrl("/categories/树莓派/")'><card data-image="https://img02.anheyu.com/adminuploads/1/2022/09/05/6315e144528fb.webp"><h1 slot="header">树莓派</h1><!-- <p slot="content">前端学习之路。</p> --></card></a><a href='javascript:void(0);' onClick='pjax.loadUrl("/categories/STM32/")'>  <card data-image="https://img02.anheyu.com/adminuploads/1/2022/09/05/6315e1433f197.webp">    <h1 slot="header">STM32</h1>    <!-- <p slot="content">在大学期间发生的一些事儿。</p> -->  </card></a><a href='javascript:void(0);' onClick='pjax.loadUrl("/categories/嵌入式Linux/")'>  <card data-image="https://img02.anheyu.com/adminuploads/1/2022/09/05/6315e142a69a9.webp">    <h1 slot="header">嵌入式Linux</h1>    <!-- <p slot="content">和好朋友👬们一起经历的有趣事。</p> -->  </card></a></div></div><script src='https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/vue/2.6.14/vue.min.js' data-pjax></script><script type="text/javascript" src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.7/no3d/no3d.js" data-pjax></script>]]></content>
+        <content type="html"><![CDATA[#todolist {    display: flex;    flex-wrap: wrap;    margin-top: 1rem;    justify-content: center;}.list_item {    display: inline-block;    width: calc(33.333% - .5rem);    background: #ffe3dd;    border-radius: 12px;    border: var(--style-border-always);    box-shadow: var(--icat-shadow-border);    padding: 10px 1rem 1.2rem;    border: 2px dashed #f7a796;    --todo-border: 1px solid #f7a796;    margin-right: 1rem;    margin-bottom: 1rem;}.list_item h3 {    margin: 0;    color: #333;    border-bottom: var(--todo-border);}.list_item ul {    font-size: 17px;    padding: 0 !important;    margin: 0;}.list_item li {    margin: 0 !important;    color: #333;    border-bottom: var(--todo-border);}.list_item li::marker {    content: none;}li.achieve {    opacity: .8;    text-decoration: line-through;}.bottom {    line-height: 1.5;    text-align: right;}.bottom p {    margin: 0 !important;}.bottom a {    font-weight: 700;    color: var(--font-color) !important;}[data-theme="dark"] .list_item {    border: 2px solid var(--icat-card-border) !important;}@media screen and (max-width: 900px) {    div#todolist {        margin: 1rem 5px 0;    }}@media screen and (max-width: 768px) {    .list_item {        width: 100%;    }    .bottom {        text-align: center;    }}.page-title {    text-align: center;    width: 100%;}/* Memos清单页样式 */]]></content>
       
     </entry>
     
@@ -573,11 +584,11 @@
     
     
     <entry>
-      <title></title>
-      <link href="/css/project.css"/>
-      <url>/css/project.css</url>
+      <title>即刻说说</title>
+      <link href="/essay/index.html"/>
+      <url>/essay/index.html</url>
       
-        <content type="html"><![CDATA[#todolist {    display: flex;    flex-wrap: wrap;    margin-top: 1rem;    justify-content: center;}.list_item {    display: inline-block;    width: calc(33.333% - .5rem);    background: #ffe3dd;    border-radius: 12px;    border: var(--style-border-always);    box-shadow: var(--icat-shadow-border);    padding: 10px 1rem 1.2rem;    border: 2px dashed #f7a796;    --todo-border: 1px solid #f7a796;    margin-right: 1rem;    margin-bottom: 1rem;}.list_item h3 {    margin: 0;    color: #333;    border-bottom: var(--todo-border);}.list_item ul {    font-size: 17px;    padding: 0 !important;    margin: 0;}.list_item li {    margin: 0 !important;    color: #333;    border-bottom: var(--todo-border);}.list_item li::marker {    content: none;}li.achieve {    opacity: .8;    text-decoration: line-through;}.bottom {    line-height: 1.5;    text-align: right;}.bottom p {    margin: 0 !important;}.bottom a {    font-weight: 700;    color: var(--font-color) !important;}[data-theme="dark"] .list_item {    border: 2px solid var(--icat-card-border) !important;}@media screen and (max-width: 900px) {    div#todolist {        margin: 1rem 5px 0;    }}@media screen and (max-width: 768px) {    .list_item {        width: 100%;    }    .bottom {        text-align: center;    }}.page-title {    text-align: center;    width: 100%;}/* Memos清单页样式 */]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -628,28 +639,6 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>即刻说说</title>
-      <link href="/essay/index.html"/>
-      <url>/essay/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title></title>
       <link href="/json/manifest.json"/>
       <url>/json/manifest.json</url>
@@ -661,11 +650,11 @@
     
     
     <entry>
-      <title>清单</title>
-      <link href="/project/index.html"/>
-      <url>/project/index.html</url>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[<!-- 页面内容 -->]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -677,6 +666,17 @@
       <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>清单</title>
+      <link href="/project/index.html"/>
+      <url>/project/index.html</url>
+      
+        <content type="html"><![CDATA[<!-- 页面内容 -->]]></content>
       
     </entry>
     
